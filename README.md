@@ -5,16 +5,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg?style=flat-square)](https://packagist.org/packages/imei-info/imei-check-api)
 
-The official, production-ready B2B PHP integration library for the **IMEI.info API v5**.
+The official, production-ready B2B PHP integration library for the **IMEI.info API v5** — the ultimate global **IMEI checker API**.
 
-Integrate the industry-leading **IMEI CHECK API** into your PHP backend, WordPress plugins, WooCommerce checkout flows, or ERP platforms. Retrieve technical specifications, check Carrier Lock (SIM lock) statuses, verify iCloud/FRP statuses, and check global blacklist databases in real-time.
+Integrate the industry-leading **IMEI check API** into your PHP backend, custom WordPress plugins, WooCommerce checkout flows, or high-volume wholesale ERP platforms. Perform instant **IMEI check** and **IMEI lookup** requests to retrieve comprehensive device specifications from our global **TAC (Type Allocation Code)** and **TAC database**. Verify real-time **blacklist check** and **blacklist status (carrier lock, phone block)**, retrieve **iCloud check** details (Find My iPhone status), and identify **FRP bypass status (Google Factory Reset Protection)** instantly to automate your mobile trade-in, e-commerce, or recycling workflows.
 
 ---
 
-## ⚡ Why Use This Library?
+## ⚡ Supported IMEI Check API Features & Services
 
-In the mobile wholesale and e-commerce industry, reliable **IMEI check** automation is critical. This library was designed from the ground up to solve common integration headaches:
+In the modern mobile wholesale, recycling, and e-commerce industry, reliable **IMEI check** automation and live device verification are business-critical. This lightweight B2B library was engineered from the ground up to solve common integration headaches:
 
+* **Instant Blacklist & Carrier Verification**: Query global databases to check GSMA status, perform a **blacklist check** or discover a device's exact **blacklist status (carrier lock, phone block)**.
+* **Apple & Android Security Lock Checking**: Instantly execute an **iCloud check** to find Find My iPhone status, or verify **FRP bypass status (Google Factory Reset Protection)** to prevent locked device trade-ins.
+* **TAC Identification**: Query our high-performance **TAC (Type Allocation Code)** catalog to match device model names, brands, and technical specs automatically from the official **TAC database**.
 * **Zero Dependency Footprint**: Built purely with native PHP cURL. It does **not** depend on Guzzle or other HTTP libraries, preventing "dependency version hell" in complex frameworks, **WooCommerce**, and **WordPress** plugins.
 * **Modern Strict PHP**: Developed under `strict_types=1` using PHP 8.1+ standards.
 * **Structured Exceptions**: Automatically catches API error responses and wraps them in specialized, descriptive PHP exception classes (e.g., credit exhaustion, validation, authentication failure).
