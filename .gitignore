@@ -1,0 +1,20 @@
+# Dependency directories
+/vendor/
+
+# Environment configurations
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+Thumbs.db

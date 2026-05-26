@@ -1,0 +1,25 @@
+{
+    "name": "imei-info/imei-check-api",
+    "description": "Official IMEI CHECK API Client for PHP by IMEI.info. Highly optimized for WooCommerce, WordPress, and Dhru Fusion integrations.",
+    "keywords": ["imei", "imei check", "imei check api", "imei lookup", "carrier lock", "icloud status", "blacklist check"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IMEI.info Team",
+            "email": "api@imei.info"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImeiInfo\\ImeiCheck\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
