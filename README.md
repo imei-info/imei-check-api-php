@@ -107,6 +107,13 @@ $client = new ImeiCheckClient($apiKey, 'http://localhost:8000');
 
 ---
 
+## Postman Collection
+
+Prefer testing requests before writing code?
+
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/55865585-498f1c10-3c55-4d01-9062-256e7a99e8cc?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D55865585-498f1c10-3c55-4d01-9062-256e7a99e8cc%26entityType%3Dcollection%26workspaceId%3D1f90c16b-0b90-404a-bff7-ff4035dbccf8#?env%5BIMEI.info%20API%20v5%5D=W3sia2V5IjoiYmFzZV91cmwiLCJ2YWx1ZSI6Imh0dHBzOi8vZGFzaC5pbWVpLmluZm8vYXBpIiwidHlwZSI6ImRlZmF1bHQiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6IkFQSV9LRVkiLCJ2YWx1ZSI6IiIsInR5cGUiOiJzZWNyZXQiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InNlcnZpY2VfaWQiLCJ2YWx1ZSI6IjAiLCJ0eXBlIjoiZGVmYXVsdCIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoicmVzdWx0X2lkIiwidmFsdWUiOiIiLCJ0eXBlIjoiZGVmYXVsdCIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiYnVsa19yZXN1bHRfaWQiLCJ2YWx1ZSI6IiIsInR5cGUiOiJkZWZhdWx0IiwiZW5hYmxlZCI6dHJ1ZX1d)
+---
+
 ## 📈 Strategic Integration & Support
 
 Need enterprise custom pricing, wholesale high-volume packages, custom webhooks, or custom hardware spec feeds?
